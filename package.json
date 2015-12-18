@@ -1,0 +1,41 @@
+{
+  "name": "tsearch",
+  "version": "0.0.1",
+  "description": "Kickass Torrents cli search",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "babel --out-dir lib src"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/oeb25/kat.git"
+  },
+  "bin": {
+    "tsearch": "./lib/app.js"
+  },
+  "keywords": [
+    "torrent",
+    "cli"
+  ],
+  "author": "Oliver Bøving",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/oeb25/kat/issues"
+  },
+  "homepage": "https://github.com/oeb25/kat#readme",
+  "dependencies": {
+    "clivas": "^0.2.0",
+    "copy-paste": "^1.1.4",
+    "es6-promise": "^3.0.2",
+    "inquirer": "^0.11.0",
+    "isomorphic-fetch": "^2.2.0",
+    "optimist": "^0.6.1",
+    "torrent-stream": "^1.0.0"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.2.0",
+    "babel-preset-es2015": "^6.1.18",
+    "babel-preset-stage-0": "^6.1.18"
+  }
+}
